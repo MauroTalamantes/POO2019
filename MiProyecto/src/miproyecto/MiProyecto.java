@@ -21,6 +21,10 @@ public class MiProyecto {
      */
     public static void main(String[] args) {
         Persona beto = new Persona();
+        Persona fabian = new Persona();
+        Persona carito = new Persona();
+        Persona arturo = new Persona();
+        Persona javier = new Persona();
         System.out.println();
         
     }
