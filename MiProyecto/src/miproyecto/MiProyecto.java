@@ -14,11 +14,8 @@ import poo.Persona;
         
     }
     
-}
-es Villagrana
  */
 public class MiProyecto {
-
     /**
      * @param args the command line arguments
      */
