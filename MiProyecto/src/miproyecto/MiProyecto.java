@@ -9,7 +9,7 @@ import poo.Persona;
 
 /**
  *
- * @author Mauro Talamant();
+ * @author Mauro Talamantes();
         System.out.println();
         
     }
