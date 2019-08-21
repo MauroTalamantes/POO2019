@@ -11,10 +11,10 @@ package poo;
  */
 public class Lapiz {
     
-    public String marca;
-    public String calidad;
-    public double precio;
-    public String color;
+    private String marca;
+    private String calidad;
+    private double precio;
+    private String color;
     
     public Lapiz(){
         marca = "Desconocido";
@@ -39,6 +39,33 @@ public class Lapiz {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
+    public String getLapiz (){
+        return this.marca;
+    };
+     public void setLapiz (String marca){
+        this.marca=marca;
+    };
+     
+     public String getLapiz2 (){
+        return this.calidad;
+    };
+     public void setLapiz2 (String calidad){
+        this.calidad=calidad;
+    };
+     
+    public double getLapiz3 (){
+        return this.precio;
+    };
+     public void setLapiz3 (double precio){
+        this.precio=precio;
+    }; 
     
+     public String getLapiz4 (){
+        return this.color;
+    };
+     public void setLapiz4 (String color){
+        this.color=color;
+    };
+
 }  
 

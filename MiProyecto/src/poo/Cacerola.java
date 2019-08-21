@@ -12,10 +12,10 @@ package poo;
 public class Cacerola {
     
     private String nombre;
-    public String marca;
-    public double precio;
-    public double peso;
-    public String material;
+    private String marca;
+    private double precio;
+    private double peso;
+    private String material;
     
     public Cacerola(){
         nombre = "Desconocido";
@@ -45,8 +45,38 @@ public class Cacerola {
     public String getCacerola (){
         return this.nombre;
     };
-     public void getCacerola (String nombre){
+     public void setCacerola (String nombre){
         this.nombre=nombre;
     };
+     
+     public String getCacerola1 (){
+        return this.marca;
+    };
+     public void setCacerola1 (String marca){
+        this.nombre=marca;
+    }; 
+    
+      public double getCacerola2 (){
+        return this.precio;
+    };
+     public void setCacerola (double precio){
+        this.precio=precio;
+    };
+    
+     public double getCacerola3 (){
+        return this.peso;
+    };
+     public void setCacerola2 (double peso){
+        this.peso=peso;
+    }; 
+     
+     public String getCacerola4 (){
+        return this.material;
+    };
+     public void setCacerola2 (String material){
+        this.material=material;
+    }; 
+     
+   
 }  
 

@@ -11,11 +11,11 @@ package poo;
  */
 public class Perro {
     
-    public String nombre;
-    public int edad;
-    public String raza;
-    public double peso;
-    public String sexo;
+    private String nombre;
+    private int edad;
+    private String raza;
+    private double peso;
+    private String sexo;
     
     public Perro(){
         nombre = "Desconocido";
@@ -42,6 +42,39 @@ public class Perro {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
+    public String getPerro (){
+        return this.nombre;
+    };
+     public void SetPerro (String nombre){
+        this.nombre=nombre;
+    };
+     
+     public int getPerro2 (){
+        return this.edad;
+    };
+     public void SetPerro2 (int edad){
+        this.edad=edad;
+    }; 
+     
+     public String getPerro3 (){
+        return this.raza;
+    };
+     public void SetPerro3 (String raza){
+        this.raza=raza;
+    }; 
     
+      public double getPerro4 (){
+        return this.peso;
+    };
+     public void SetPerro4 (double peso){
+        this.peso=peso;
+    };
+     
+     public String getPerro5 (){
+        return this.sexo;
+    };
+     public void SetPerro5 (String sexo){
+        this.sexo=sexo;
+    }; 
 }  
 

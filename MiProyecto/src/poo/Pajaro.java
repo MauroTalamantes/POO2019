@@ -11,11 +11,11 @@ package poo;
  */
 public class Pajaro {
     
-   public String nombre;
-    public int edad;
-    public String raza;
-    public double peso;
-    public String sexo;
+   private String nombre;
+    private int edad;
+    private String raza;
+    private double peso;
+    private String sexo;
     
     public Pajaro(){
         nombre = "Desconocido";
@@ -42,6 +42,39 @@ public class Pajaro {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
+    public String getPajaro (){
+        return this.nombre;
+    };
+     public void setPajaro (String nombre){
+        this.nombre=nombre;
+    };
     
+    public int getPajaro2 (){
+        return this.edad;
+    };
+     public void setPajaro2 (int edad){
+        this.edad=edad;
+    };
+     
+    public String getPajaro3 (){
+        return this.raza;
+    };
+     public void setPajaro3 (String raza){
+        this.raza=raza;
+    }; 
+     
+    public double getPajaro4 (){
+        return this.peso;
+    };
+     public void setPajaro4 (double peso){
+        this.peso=peso;
+    }; 
+     
+     public String getPajaro5 (){
+        return this.sexo;
+    };
+     public void setPajaro5 (String sexo){
+        this.sexo=sexo;
+    };
 }  
 

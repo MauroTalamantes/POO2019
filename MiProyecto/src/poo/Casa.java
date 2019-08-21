@@ -12,10 +12,10 @@ package poo;
 public class Casa {
     
     private String ubicacion;
-    public int año_construccion;
-    public String color;
-    public double metros;
-    public String tipo;
+    private int año_construccion;
+    private String color;
+    private double metros;
+    private String tipo;
     
     public Casa(){
         ubicacion = "Desconocido";
@@ -42,10 +42,40 @@ public class Casa {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
+    
     public String getCasa (){
         return this.ubicacion;
     };
-     public void getCasa (String ubicacion){
+     public void setCasa (String ubicacion){
         this.ubicacion=ubicacion;
     };
+     
+    public int getCasa2 (){
+        return this.año_construccion;
+    };
+     public void setCasa (int año_construccion){
+        this.año_construccion=año_construccion;
+    }; 
+     
+    public String etCasa3 (){
+        return this.color;
+    };
+     public void setCasa1 (String color){
+        this.color=color;
+    }; 
+     
+    public double getCasa4 (){
+        return this.metros;
+    };
+     public void setCasa (double metros){
+        this.metros=metros;
+    }; 
+     
+    public String getCasa5 (){
+        return this.tipo;
+    };
+     public void setCasa2 (String tipo){
+        this.tipo=tipo;
+    }; 
+   
 }

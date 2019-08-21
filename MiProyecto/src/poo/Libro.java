@@ -11,10 +11,10 @@ package poo;
  */
 public class Libro {
     
-    public String nombre;
-    public int paginas;
-    public double precio;
-    public String autor;
+    private String nombre;
+    private int paginas;
+    private double precio;
+    private String autor;
     
     public Libro(){
         nombre = "Desconocido";
@@ -39,6 +39,33 @@ public class Libro {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    
+    public String getLibro (){
+        return this.nombre;
+    };
+     public void setLibro (String nombre){
+        this.nombre=nombre;
+    };
+     
+    public int getLibro2 (){
+        return this.paginas;
+    };
+     public void setLibro2 (int paginas){
+        this.paginas=paginas;
+    }; 
+     
+   public double getLibro3 (){
+        return this.precio;
+    };
+     public void setLibro3 (double precio){
+        this.precio=precio;
+    }; 
+     
+    public String getLibro4 (){
+        return this.autor;
+    };
+     public void setLibro4 (String autor){
+        this.autor=autor;
+    }; 
+
 }  
 

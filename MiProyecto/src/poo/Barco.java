@@ -12,10 +12,10 @@ package poo;
 public class Barco {
     
     private String nombre;
-    public int num_velas;
-    public double costo;
-    public String material;
-    public String tipo;
+    private int num_velas;
+    private double costo;
+    private String material;
+    private String tipo;
     
     public Barco(){
         nombre = "Desconocido";
@@ -45,8 +45,38 @@ public class Barco {
     public String getBarco (){
         return this.nombre;
     };
-     public void getBarco (String nombre){
+     public void setBarco (String nombre){
         this.nombre=nombre;
     };
+     
+    public int getBarco2 (){
+        return this.num_velas;
+    };
+     public void setBarco (int num_velas){
+        this.num_velas=num_velas;
+    }; 
+     
+    public double getBarco3 (){
+        return this.costo;
+    };
+     public void setBarco (double costo){
+        this.costo=costo;
+    }; 
+    
+     public String getBarco4 (){
+        return this.material;
+    };
+     public void setBarco1 (String material){
+        this.material=material;
+    };
+     
+     
+    public String getBarco5 (){
+        return this.tipo;
+    };
+     public void setBarco2 (String tipo){
+        this.tipo=tipo;
+    }; 
+     
 }  
 

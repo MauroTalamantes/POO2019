@@ -12,10 +12,10 @@ package poo;
 public class Celular {
     
     private String nombre;
-    public String color;
-    public double precio;
-    public double peso;
-    public String marca;
+    private String color;
+    private double precio;
+    private double peso;
+    private String marca;
     
     public Celular(){
         nombre = "Desconocido";
@@ -45,8 +45,38 @@ public class Celular {
     public String getCelular (){
         return this.nombre;
     };
-     public void getCelular (String nombre){
+     public void setCelular (String nombre){
         this.nombre=nombre;
     };
+     
+    public String getCelular1 (){
+        return this.color;
+    };
+     public void setCelular1 (String color){
+        this.color=color;
+    }; 
+    
+     
+    public double getCelular2 (){
+        return this.precio;
+    };
+     public void setCelular (double precio){
+        this.precio=precio;
+    }; 
+     
+    public double getCelular3 (){
+        return this.peso;
+    };
+     public void setCelular3 (double peso){
+        this.peso=peso;
+    }; 
+     
+    public String getCelular4 (){
+        return this.marca;
+    };
+     public void setCelular4 (String marca){
+        this.marca=marca;
+    }; 
+   
 }  
 

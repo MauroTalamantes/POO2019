@@ -11,10 +11,10 @@ package poo;
  */
 public class Instrumento {
     
-    public String nombre;
-    public double precio;
-    public double peso;
-    public String material;
+    private String nombre;
+    private double precio;
+    private double peso;
+    private String material;
     
     public Instrumento(){
         nombre = "Desconocido";
@@ -38,6 +38,26 @@ public class Instrumento {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
+    public String getInstrumento (){
+        return this.nombre;
+    };
+     public void setInstrumento (String nombre){
+        this.nombre=nombre;
+    };
+     
+    public double getInstrumento2 (){
+        return this.precio;
+    };
+     public void setInstrumento2 (double precio){
+        this.precio=precio;
+    }; 
+     
+    public String getInstrumento3 (){
+        return this.material;
+    };
+     public void setInstrumento3 (String material){
+        this.material=material;
+    }; 
     
 }  
 

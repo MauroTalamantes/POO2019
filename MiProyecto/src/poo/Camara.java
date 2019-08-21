@@ -12,10 +12,10 @@ package poo;
 public class Camara {
     
     private String marca;
-    public double precio;
-    public String software;
-    public double peso;
-    public double calidad;
+    private double precio;
+    private String software;
+    private double peso;
+    private double calidad;
     
     public Camara(){
         marca = "Desconocido";
@@ -27,7 +27,7 @@ public class Camara {
 
     
      public Camara(String marca,
-                    int precio, 
+                    double precio, 
                     String software,
                     double peso, double calidad ){
         this.marca = marca;
@@ -45,8 +45,34 @@ public class Camara {
     public String getCamara (){
         return this.marca;
     };
-     public void getCamara (String marca){
+     public void setCamara (String marca){
         this.marca=marca;
     };
+    public double getCamara1 (){
+        return this.precio;
+    };
+     public void setCamara (double precio){
+        this.precio=precio;
+    }; 
+    public String getCamara2 (){
+        return this.software;
+    };
+     public void setCamara1 (String software){
+        this.software=software;
+    };
+    public double getCamara3 (){
+        return this.peso;
+    };
+     public void setCamara2 (double peso){
+        this.peso=peso;
+    }; 
+     
+    public double getCamara4 (){
+        return this.calidad;
+    };
+     public void setCamara3 (double calidad){
+        this.calidad=calidad;
+    }; 
+     
 }  
 

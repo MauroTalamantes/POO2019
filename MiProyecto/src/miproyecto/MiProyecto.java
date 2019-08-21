@@ -50,64 +50,84 @@ public class MiProyecto {
 
         //1
         Audifonos x = new Audifonos("Sony",20,3.5,499, "manos libres" );
-        x.precio=500;
+        System.out.println(x.getAudifonos());
+        x.setAudifonos("Xperia");
+        System.out.println(x.getAudifonos());
         //2
         Automovil carro = new Automovil("volkswagen",2000,"Negro",500,"Pointer");
-        carro.año=2019;
+        System.out.println(carro.getAutomovil());
+        carro.setAutomovil("toyota");
+        System.out.println(carro.getAutomovil());
         //3
         Barco barco = new Barco("El venganza de la reina Anne",20, 1000000, "madera", "pirata");
-        barco.nombre="El maravilla";
+        System.out.println(barco.getBarco());
+        barco.setBarco("El maravilla");
+        System.out.println(barco.getBarco());
         //4
         Cacerola cocina = new Cacerola("Super2000", "Tefal", 400, .500,"Teflon");
-        cocina.material="jade";
+        System.out.println(cocina.getCacerola());
+        cocina.setCacerola("2001xyz");
+        System.out.println(cocina.getCacerola());
         //5
         Casa nuevaa = new Casa("Zacatecas", 2000, "Rosa",100000 , "Duplex");
-        nuevaa.tipo="departamento";
+        System.out.println(nuevaa.getCasa());
+        nuevaa.setCasa("Guadalupe");
+        System.out.println(nuevaa.getCasa());
         //6
         Camara otra = new Camara("Nikon",10000,"Nose",31.2,40.1);
-        otra.marca="Samsung";
+        System.out.println(otra.getCamara());
+        otra.setCamara("Sony");
+        System.out.println(otra.getCamara());
         //7
         Celular hiper = new Celular("P30", "Tornasol", 20000, 41, "Huawei");
-        hiper.nombre="P30 lite";
+        System.out.println(hiper.getCelular());
+        hiper.setCelular("P30 lite");
+        System.out.println(hiper.getCelular());
         //8
         Computadora compu = new Computadora("Jerry", "rojo", 6000, 2, "asus");
-        compu.color="yrrej";
+        System.out.println(compu.getComputadora());
+        compu.setComputadora("Larry");
+        System.out.println(compu.getComputadora());
         //9
         Desodorante rico = new Desodorante("invisible", "axe", "chcolate", 20, "hombre");
-        rico.nombre="ice";
+        System.out.println(rico.getDesodorante());
+        rico.setDesodorante("ice");
+        System.out.println(rico.getDesodorante());
         //10
         Figura_Geometrica mate = new Figura_Geometrica("trigangulo",4,12,6,24);
-        mate.lados=3;
+        System.out.println(mate.getFigura_Geometrica());
+        mate.setFigura_Geometrica("cuadrado");
+        System.out.println(mate.getFigura_Geometrica());
         //11
         Gato micho = new Gato("pelusa", 1 ,"noruego", 2, "hembra");
-        micho.edad=2;
+       
         //12
         Hamburgesa kfc = new Hamburgesa("lechuga", "tomate","cangrejo", "mostaza", "queso");
-        kfc.ingrediente_1="repollo";
+        
         //13
         Instrumento musica = new Instrumento("piano", 10000, 500, "marfil");
-        musica.material="madera";
+       
         //14
         Lapiz esc = new Lapiz("bic", "HB", 10, "negro");
-        esc.precio=15;
+        
         //15
         Libro ula = new Libro("El kybalion", 100, 40, "los 3 iniciados");
-        ula.autor="desconocido";
+        
         //16
         Mochila la = new Mochila("chenson",1,"escolar");
-        la.peso=2.2;
+       
         //17
         Moneda dinero = new Moneda("mexicana",5,"oro");
-        dinero.pais="Peru";
+        
         //18
         Pajaro pio = new Pajaro("piolin", 1, "chencho", .3, "macho");
-        pio.raza="xenxotle";
+ 
         //19
         Perro rro= new Perro("firulais", 2, "husky", 4, "macho");
-        rro.nombre="pluto";
+      
         //20
         Tablet rata= new Tablet("950", "azul", 2000, .500, "samsung");
-        rata.peso=.550;
+  
         
         
     }

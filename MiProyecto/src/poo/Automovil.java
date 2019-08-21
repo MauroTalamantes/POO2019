@@ -12,10 +12,10 @@ package poo;
 public class Automovil {
     
     private String marca;
-    public int año;
-    public String color;
-    public double peso;
-    public String modelo;
+    private int año;
+    private String color;
+    private double peso;
+    private String modelo;
     
     public Automovil(){
         marca = "Desconocido";
@@ -42,11 +42,43 @@ public class Automovil {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
+    
+    
     public String getAutomovil (){
         return this.marca;
     };
-     public void getAutomovil (String marca){
+     public void setAutomovil (String marca){
         this.marca=marca;
     };
+     
+    public int getAutomovil2 (){
+        return this.año;
+    };
+     public void setAutomovil (int año){
+        this.año=año;
+    }; 
+     
+    public String getAutomovil3 (){
+        return this.color;
+    };
+     public void setAutomovil1 (String color){
+        this.color=color;
+    };  
+     
+    public double getAutomovil4 (){
+        return this.peso;
+    };
+     public void setAutomovil (double peso){
+        this.peso=peso;
+    }; 
+     
+     
+    public int getAutomovil5 (){
+        return this.año;
+    };
+     public void setAutomovil2 (String modelo){
+        this.modelo=modelo;
+    };  
+     
 }  
 

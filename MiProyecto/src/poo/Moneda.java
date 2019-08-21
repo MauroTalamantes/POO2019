@@ -11,9 +11,9 @@ package poo;
  */
 public class Moneda {
     
-    public String pais;
-    public double valor;
-    public String metal;
+    private String pais;
+    private double valor;
+    private String metal;
     
     public Moneda(){
         pais = "Desconocido";
@@ -35,6 +35,25 @@ public class Moneda {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    
+    public String getMoneda (){
+        return this.pais;
+    };
+     public void setMoneda (String pais){
+        this.pais=pais;
+    };
+     
+    public double getMoneda2 (){
+        return this.valor;
+    };
+     public void setMoneda2 (double valor){
+        this.valor=valor;
+    }; 
+     
+    public String getMoneda3 (){
+        return this.metal;
+    };
+     public void setMoneda3 (String metal){
+        this.metal=metal;
+    }; 
 }  
 
