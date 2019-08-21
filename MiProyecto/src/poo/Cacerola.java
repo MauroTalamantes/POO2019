@@ -11,7 +11,7 @@ package poo;
  */
 public class Cacerola {
     
-    public String nombre;
+    private String nombre;
     public String marca;
     public double precio;
     public double peso;
@@ -42,6 +42,11 @@ public class Cacerola {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    
+    public String getCacerola (){
+        return this.nombre;
+    };
+     public void getCacerola (String nombre){
+        this.nombre=nombre;
+    };
 }  
 

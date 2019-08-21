@@ -11,7 +11,7 @@ package poo;
  */
 public class Automovil {
     
-    public String marca;
+    private String marca;
     public int año;
     public String color;
     public double peso;
@@ -42,6 +42,11 @@ public class Automovil {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    
+    public String getAutomovil (){
+        return this.marca;
+    };
+     public void getAutomovil (String marca){
+        this.marca=marca;
+    };
 }  
 

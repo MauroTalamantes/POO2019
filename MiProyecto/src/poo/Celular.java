@@ -11,7 +11,7 @@ package poo;
  */
 public class Celular {
     
-    public String nombre;
+    private String nombre;
     public String color;
     public double precio;
     public double peso;
@@ -42,6 +42,11 @@ public class Celular {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    
+    public String getCelular (){
+        return this.nombre;
+    };
+     public void getCelular (String nombre){
+        this.nombre=nombre;
+    };
 }  
 

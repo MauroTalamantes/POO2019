@@ -11,7 +11,7 @@ package poo;
  */
 public class Persona {
     
-    public String nombre;
+    private String nombre;
     public int edad;
     public double estatura;
     public double peso;
@@ -42,6 +42,11 @@ public class Persona {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    
+    public String getNombre (){
+        return this.nombre;
+    };
+     public void setNombre (String nombre){
+        this.nombre=nombre;
+    };
 }  
 

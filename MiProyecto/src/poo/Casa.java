@@ -11,7 +11,7 @@ package poo;
  */
 public class Casa {
     
-    public String ubicacion;
+    private String ubicacion;
     public int año_construccion;
     public String color;
     public double metros;
@@ -42,5 +42,10 @@ public class Casa {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    
+    public String getCasa (){
+        return this.ubicacion;
+    };
+     public void getCasa (String ubicacion){
+        this.ubicacion=ubicacion;
+    };
 }

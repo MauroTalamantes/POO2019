@@ -11,7 +11,7 @@ package poo;
  */
 public class Camara {
     
-    public String marca;
+    private String marca;
     public double precio;
     public String software;
     public double peso;
@@ -42,6 +42,11 @@ public class Camara {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    
+    public String getCamara (){
+        return this.marca;
+    };
+     public void getCamara (String marca){
+        this.marca=marca;
+    };
 }  
 

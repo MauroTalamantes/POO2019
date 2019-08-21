@@ -11,7 +11,7 @@ package poo;
  */
 public class Computadora {
     
-    public String nombre;
+    private String nombre;
     public String color;
     public double precio;
     public double peso;

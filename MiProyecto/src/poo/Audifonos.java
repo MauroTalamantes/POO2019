@@ -11,7 +11,7 @@ package poo;
  */
 public class Audifonos {
     
-    public String marca;
+    private String marca;
     public int frecuencia;
     public double calidad;
     public double precio;
@@ -42,6 +42,11 @@ public class Audifonos {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    
+    public String getAudifonos (){
+        return this.marca;
+    };
+     public void getAudifonos (String marca){
+        this.marca=marca;
+    };
 }  
 

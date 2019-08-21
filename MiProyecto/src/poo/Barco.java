@@ -11,7 +11,7 @@ package poo;
  */
 public class Barco {
     
-    public String nombre;
+    private String nombre;
     public int num_velas;
     public double costo;
     public String material;
@@ -42,6 +42,11 @@ public class Barco {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    
+    public String getBarco (){
+        return this.nombre;
+    };
+     public void getBarco (String nombre){
+        this.nombre=nombre;
+    };
 }  
 

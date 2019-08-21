@@ -43,7 +43,10 @@ public class MiProyecto {
         
         
         Persona beto = new Persona("dario",16,175,65,"masculino");
-        beto.nombre="beto";
+        //beto.nombre="beto";
+        System.out.println(beto.getNombre());
+        beto.setNombre("beto");
+        System.out.println(beto.getNombre());
 
         //1
         Audifonos x = new Audifonos("Sony",20,3.5,499, "manos libres" );
@@ -105,7 +108,7 @@ public class MiProyecto {
         //20
         Tablet rata= new Tablet("950", "azul", 2000, .500, "samsung");
         rata.peso=.550;
-        System.out.println();
+        
         
     }
     
