@@ -12,10 +12,10 @@ package poo;
 public class Persona {
     
     private String nombre;
-    public int edad;
-    public double estatura;
-    public double peso;
-    public String sexo;
+    private int edad;
+    private double estatura;
+    private double peso;
+    private String sexo;
     
     public Persona(){
         nombre = "Desconocido";
@@ -48,5 +48,55 @@ public class Persona {
      public void setNombre (String nombre){
         this.nombre=nombre;
     };
+
+    /**
+     * @return the edad
+     */
+    public int getEdad() {
+        return edad;
+    }
+
+    /**
+     * @param edad the edad to set
+     */
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    /**
+     * @return the estatura
+     */
+    public double getEstatura() {
+        return estatura;
+    }
+
+    /**
+     * @param estatura the estatura to set
+     */
+    public void setEstatura(double estatura) {
+        this.estatura = estatura;
+    }
+
+    /**
+     * @return the peso
+     */
+    public double getPeso() {
+        return peso;
+    }
+
+    /**
+     * @param peso the peso to set
+     */
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    /**
+     * @return the sexo
+     */
+    public String getSexo() {
+        return sexo;
+    }
+     
 }  
 
