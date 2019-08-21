@@ -34,24 +34,24 @@ public class Mochila {
     public  void saludar(){
         System.out.println("Hola mundo");
     } 
-    public String getFigura_Geometrica (){
+    public String getMochila (){
         return this.marca;
     };
-     public void setFigura_Geometrica (String marca){
+     public void setMochila (String marca){
         this.marca=marca;
     };
      
-     public double getFigura_Geometrica2 (){
+     public double getMochila2 (){
         return this.peso;
     };
-     public void setFigura_Geometrica2 (double peso){
+     public void setMochila2 (double peso){
         this.peso=peso;
     };
      
-     public String getFigura_Geometrica3 (){
+     public String getMochila3 (){
         return this.tipo;
     };
-     public void setFigura_Geometrica3 (String tipo){
+     public void setMochila3 (String tipo){
         this.tipo=tipo;
     };
 }  

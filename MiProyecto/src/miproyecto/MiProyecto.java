@@ -100,34 +100,54 @@ public class MiProyecto {
         System.out.println(mate.getFigura_Geometrica());
         //11
         Gato micho = new Gato("pelusa", 1 ,"noruego", 2, "hembra");
-       
+       System.out.println(micho.getGato());
+        micho.SetGato("squichi");
+        System.out.println(micho.getGato());
         //12
         Hamburgesa kfc = new Hamburgesa("lechuga", "tomate","cangrejo", "mostaza", "queso");
-        
+        System.out.println(kfc.getHamburgesa());
+        kfc.setHamburgesa("tocino");
+        System.out.println(kfc.getHamburgesa());
         //13
         Instrumento musica = new Instrumento("piano", 10000, 500, "marfil");
-       
+       System.out.println(musica.getInstrumento());
+        musica.setInstrumento("violin");
+        System.out.println(musica.getInstrumento());
         //14
         Lapiz esc = new Lapiz("bic", "HB", 10, "negro");
-        
+        System.out.println(esc.getLapiz());
+        esc.setLapiz("prismacolor");
+        System.out.println(esc.getLapiz());
         //15
         Libro ula = new Libro("El kybalion", 100, 40, "los 3 iniciados");
-        
+        System.out.println(ula.getLibro());
+        ula.setLibro("Raromagedon");
+        System.out.println(ula.getLibro());
         //16
         Mochila la = new Mochila("chenson",1,"escolar");
-       
+       System.out.println(la.getMochila());
+        la.setMochila("Tupperware");
+        System.out.println(la.getMochila());
         //17
         Moneda dinero = new Moneda("mexicana",5,"oro");
-        
+        System.out.println(dinero.getMoneda());
+        dinero.setMoneda("peruana");
+        System.out.println(dinero.getMoneda());
         //18
         Pajaro pio = new Pajaro("piolin", 1, "chencho", .3, "macho");
- 
+        System.out.println(pio.getPajaro());
+        pio.setPajaro("picachu");
+        System.out.println(pio.getPajaro());
         //19
         Perro rro= new Perro("firulais", 2, "husky", 4, "macho");
-      
+        System.out.println(rro.getPerro());
+        rro.SetPerro("pluto");
+        System.out.println(rro.getPerro());
         //20
         Tablet rata= new Tablet("950", "azul", 2000, .500, "samsung");
-  
+        System.out.println(rata.getTablet());
+        rata.setTablet("750");
+        System.out.println(rata.getTablet());
         
         
     }
