@@ -40,8 +40,7 @@ public class MiProyecto {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        
+                
         Persona beto = new Persona("dario",16,175,65,"masculino");
         //beto.nombre="beto";
         System.out.println(beto.getNombre());

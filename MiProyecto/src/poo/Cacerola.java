@@ -53,7 +53,7 @@ public class Cacerola {
         return this.marca;
     };
      public void setCacerola1 (String marca){
-        this.nombre=marca;
+        this.marca=marca;
     }; 
     
       public double getCacerola2 (){
