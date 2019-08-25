@@ -97,6 +97,10 @@ public class Persona {
     public String getSexo() {
         return sexo;
     }
+    
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
      
 }  
 

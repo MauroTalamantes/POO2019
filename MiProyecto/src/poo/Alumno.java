@@ -3,50 +3,37 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package miproyecto;
+package poo;
 
 /**
  *
  * @author mauro
  */
-public class Alumno {
+public class Alumno extends Persona{
     
-   private String nombre;
+   
    private int boleta;
    private boolean regular;
    private double promedioGral;
    private String carrera;
 
     public Alumno() {
-        this.nombre = "";
         this.boleta = 0;
         this.regular = false;
         this.promedioGral = 0;
         this.carrera = "";
     }
 
-    public Alumno(String nombre, int boleta, boolean regular, double promedioGral, String carrera) {
-        this.nombre = nombre;
+    public Alumno(String nombre,
+                    int edad, 
+                    double estatura,
+                    double peso, String sexo, int boleta, boolean regular, double promedioGral, String carrera) {
+      super(nombre, edad, estatura, peso, sexo);
         this.boleta = boleta;
         this.regular = regular;
         this.promedioGral = promedioGral;
         this.carrera = carrera;
     }
-
-    /**
-     * @return the nombre
-     */
-    public String getNombre() {
-        return nombre;
-    }
-
-    /**
-     * @param nombre the nombre to set
-     */
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
     /**
      * @return the boleta
      */

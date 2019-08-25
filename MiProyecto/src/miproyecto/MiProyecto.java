@@ -5,6 +5,7 @@
  */
 package miproyecto;
 
+import poo.Alumno;
 import poo.Audifonos;
 import poo.Automovil;
 import poo.Barco;
@@ -14,6 +15,7 @@ import poo.Casa;
 import poo.Celular;
 import poo.Computadora;
 import poo.Desodorante;
+import poo.Docente;
 import poo.Figura_Geometrica;
 import poo.Gato;
 import poo.Hamburgesa;
@@ -46,6 +48,12 @@ public class MiProyecto {
         System.out.println(beto.getNombre());
         beto.setNombre("beto");
         System.out.println(beto.getNombre());
+        
+        Alumno roberto = new Alumno();
+        Alumno roberto1 = new Alumno("", 0, 0, 0, "", 0, true, 0, "");
+        Docente hector = new Docente();
+        Docente hector1= new Docente("", 0, 0, 0, "", "", "");
+
 
         //1
         Audifonos x = new Audifonos("Sony",20,3.5,499, "manos libres" );
