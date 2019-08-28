@@ -15,7 +15,6 @@ import poo.Casa;
 import poo.Celular;
 import poo.Computadora;
 import poo.Desodorante;
-import poo.Docente;
 import poo.Figura_Geometrica;
 import poo.Gato;
 import poo.Hamburgesa;
@@ -43,17 +42,10 @@ public class MiProyecto {
      */
     public static void main(String[] args) {
                 
-        Persona beto = new Persona("dario",16,175,65,"masculino");
-        //beto.nombre="beto";
-        System.out.println(beto.getNombre());
-        beto.setNombre("beto");
-        System.out.println(beto.getNombre());
+        Persona a = new Persona("dario",16,175,65,"masculino");
+        Alumno a2 = new Alumno("Arturo", 19, 185, 78, "masculini", 2019679126, true, 8.2, "Sistemas");
         
-        Alumno roberto = new Alumno();
-        Alumno roberto1 = new Alumno("", 0, 0, 0, "", 0, true, 0, "");
-        Docente hector = new Docente();
-        Docente hector1= new Docente("", 0, 0, 0, "", "", "");
-
+        System.out.println(a.toString());
 
         //1
         Audifonos x = new Audifonos("Sony",20,3.5,499, "manos libres" );
@@ -156,7 +148,6 @@ public class MiProyecto {
         rata.setTablet("750");
         System.out.println(rata.getTablet());
         
-        
+       
     }
-    
 }

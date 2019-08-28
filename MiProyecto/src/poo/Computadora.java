@@ -10,6 +10,11 @@ package poo;
  * @author Mauro Talamantes Villagrana
  */
 public class Computadora {
+
+    @Override
+    public String toString() {
+        return "Computadora{" + "nombre=" + nombre + ", color=" + color + ", precio=" + precio + ", peso=" + peso + ", marca=" + marca + '}';
+    }
     
     private String nombre;
     private String color;

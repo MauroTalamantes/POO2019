@@ -10,6 +10,11 @@ package poo;
  * @author Mauro Talamantes Villagrana
  */
 public class Persona {
+
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", estatura=" + estatura + ", peso=" + peso + ", sexo=" + sexo + '}';
+    }
     
     private String nombre;
     private int edad;
