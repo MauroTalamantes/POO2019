@@ -3,10 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package calculadora;
+package Calculadora;
 
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 /**
@@ -24,13 +28,13 @@ public class ListenerAmarillos implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent ae) {
         aux = (JButtonC) ae.getSource();
-        if("C".equals(aux.getText())){
+        if("C" == aux.getText()){
             h.setText(null);
         }
-        if("CE".equals(aux.getText())){
+        if("CE" == aux.getText()){
             h.setText(h.getText().substring(0, h.getText().length()-1));
         }
-        if(".".equals(aux.getText())){
+        if("." == aux.getText()){
             int i=0,j=0,k=0;
             i = h.getText().length();
             char auxilio;
@@ -47,9 +51,9 @@ public class ListenerAmarillos implements ActionListener{
                 h.setText(h.getText() + aux.getText());
             }
         }
-        if("?".equals(aux.getText())){
+        if("?" == aux.getText()){
             h.setText(null);
-            h.setText("Calculadora prueba!!");
+            h.setText("(^u^)/ Hola!!");
         }
     }
 }

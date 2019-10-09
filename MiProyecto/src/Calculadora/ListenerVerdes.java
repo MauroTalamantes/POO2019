@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package calculadora;
+package Calculadora;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -26,7 +26,7 @@ public class ListenerVerdes implements ActionListener{
     public void actionPerformed(ActionEvent ae) {
         
         aux = (JButtonC) ae.getSource();
-        if("+/-".equals(aux.getText())){
+        if("+/-" == aux.getText()){
             int i,j,w=0;
             char a,b='#';
             String x=null,y=null;
@@ -46,7 +46,13 @@ public class ListenerVerdes implements ActionListener{
                 for(j=i-1; j>=0; j--){
                     a = h.getText().charAt(j);
                     if(a == 'x' || a == '/' || a == '−' || a == '+'){
-                        x = ("-" + x);
+                        if(x.charAt(0)=='-'){
+                            x = x.substring(1, x.length());
+                        }
+                        else{
+                            x = ("-" + x);
+                        }
+                        
                         b = a;
                         j=-1;
                     }
@@ -90,7 +96,13 @@ public class ListenerVerdes implements ActionListener{
                         }
                     }
                 }
-                x= ("-" + x);
+                if(x.charAt(0)=='-'){
+                    x = x.substring(1, x.length());
+                }
+                else{
+                    x= ("-" + x);
+                }
+                
                 h.setText(x);
             }
         }
