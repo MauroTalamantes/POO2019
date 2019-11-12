@@ -7,7 +7,7 @@ package Calculadora;
 
 /**
  *
- * @author Phoenix Azrael
+ * @author Mauro Talamantes
  */
 public class CalculadoraMain {
     public static void main(String[] args){
