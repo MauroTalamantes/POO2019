@@ -7,7 +7,7 @@ package teclado;
 
 /**
  *
- * @author Phoenix Azrael
+ * @author mauro
  */
 public class Practica {
     public static void main(String[] args) {
