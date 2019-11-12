@@ -7,7 +7,7 @@ package Calculadora;
 
 /**
  *
- * @author Phoenix Azrael
+ * @author mauro
  */
 public class Calculadora {
    private double operando1;
